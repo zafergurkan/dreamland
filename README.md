@@ -20,7 +20,9 @@ Dreamland create without server technologies:
 ### Author
 
 Zafer Bilal Gürkan @zafer-v3 | Computer Science and Enginering
+
 *    -Junior Java Developer
 *    -Junior Javascript Programming
 *    -Junior back-end and front-end skills
-* linkedin <https://www.linkedin.com/in/mrgurkan/>
+
+linkedin <https://www.linkedin.com/in/mrgurkan/>
