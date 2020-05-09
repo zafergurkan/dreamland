@@ -18,11 +18,18 @@ const app = express();
 const cors = require("cors");
 app.use(cors({ origin: true }));
 
-//import services
+//import dream services
 const { getAllDreams, addDream } = require("./services/dreams/main");
+
+//import dream services
+const {signup} = require('./services/users/main');
 
 //dream stuff
 app.get("/dreams", getAllDreams);
 app.post("/dream", addDream);
+
+//auth stuff
+app.post("/signup",signup);
+
 
 exports.api = functions.region("europe-west1").https.onRequest(app);
