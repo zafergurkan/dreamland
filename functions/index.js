@@ -1,7 +1,9 @@
 /*
-@author zafer.gurkan
+@author zafer.bilal.gurkan
+@date 09.05.2020
+@description vuejs ile yapmayı planladığım sitenin backend kısmını firebase functions ile başladım.
 */
-//"use strict"; //javascript için katı kural kontrolleri sağlar.
+"use strict"; //javascript için katı kural kontrolleri sağlar.
 const functions = require("firebase-functions");
 const admin = require("firebase-admin"); //npm install firebase-admin
 
